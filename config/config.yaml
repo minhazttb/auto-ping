@@ -1,0 +1,18 @@
+# Auto Ping System Configuration
+
+google_sheets:
+  credentials_path: "config/credentials.json"
+  sheet_id: "1snhmkcSkwLs599GDUBu6RLEgoU6gn9KFfUW8wK6f99M"
+  sheet_name: "My_RF_Sheet_unique_ip - Sheet1"
+  cache_duration_seconds: 300  # 5 minutes
+
+ping:
+  timeout_seconds: 2
+  retry_count: 1
+  concurrent_limit: 50  # Process 50 IPs at a time
+  packet_count: 1
+  privileged_mode: false  # Set to true if running as admin
+
+display:
+  show_progress: true
+  colorize: true

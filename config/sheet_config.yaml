@@ -1,0 +1,12 @@
+# Google Sheets Column Mapping
+
+columns:
+  client_name: "B"        # Client_Name
+  connected_pop: "F"      # Connected_POP (filter column) - Column F
+  base_ap_ip: "G"         # Base_AP_IP (ping target)
+  
+# Column indices (0-based)
+indices:
+  client_name: 1
+  connected_pop: 5        # Column F = index 5
+  base_ap_ip: 6
